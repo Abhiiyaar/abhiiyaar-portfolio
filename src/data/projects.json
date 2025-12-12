@@ -1,0 +1,149 @@
+{
+  "projects": [
+    {
+      "name": "Vasu Interio",
+      "description": "Designed and developed a modern website for Vasu Interio, showcasing their expertise in home interiors, modular kitchens, wardrobes, sofa upholstery, curtains, and blinds.",
+      "image": "/img/vasuinterio.png",
+      "tags": [
+        "React",
+        "Typescript",
+        "Framer Motion",
+        "GSAP",
+        "Emailjs",
+        "TailwindCSS",
+        "SEO Friendly",
+        "React Router"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://vasuinterio.com/",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "Indowel",
+      "description": "Created an online catalog for Indowel to present their wide range of hardware accessories,hinges, tower bolts, screws, handles, and  curtain fittings.",
+      "image": "/img/indowel.png",
+      "tags": [
+        "React",
+        "Typescript",
+        "GSAP",
+        "Emailjs",
+        "TailwindCSS",
+        "SEO Friendly",
+        "React Router"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://indowel.netlify.app/",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "Socially",
+      "description": "A modern social networking platform that enables users to connect, share content, and interact in real-time. Features include user profiles, post creation with media uploads, commenting, and a responsive interface for seamless mobile and desktop experiences.",
+      "image": "/img/socially.png",
+      "tags": [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "UploadThing",
+        "Clerk"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://socially-blue.vercel.app/",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/Abhiiyaar/Socially",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "AI Meal Planner",
+      "description": "Discover the smarter way to plan your meals. Our AI-powered meal planner creates personalized recipes and meal plans based on your dietary preferences, available ingredients, and health goals. Save time, eat better, and take the guesswork out of cooking—your AI chef is ready!",
+      "image": "/img/mealplanner.png",
+      "tags": [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Stripe",
+        "OpenAI",
+        "Tanstack Query"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://meal-planner-lilac-nine.vercel.app",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/Abhiiyaar/Meal-Planner",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "E-Commerce App",
+      "description": "A full-featured e-commerce platform with product catalog, shopping cart, user authentication, and secure payment processing via PayPal integration.",
+      "image": "/img/e-commerce.png",
+      "tags": [
+        "Next.js",
+        "Typescript",
+        "Zod",
+        "MongoDB",
+        "TailwindCSS",
+        "NextAuth",
+        "Zustand",
+        "Paypal",
+        "Shadcn",
+        "React hook form"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://e-commerce-app-one-sand.vercel.app",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/Abhiiyaar/E-Commerce-App",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Realtime Chat",
+      "description": "A full-featured e-commerce platform with product catalog, shopping cart, user authentication, and secure payment processing via PayPal integration.",
+      "image": "/img/realtime-chat.png",
+      "tags": [
+        "Next.js",
+        "Typescript",
+        "Zod",
+        "Redis",
+        "TailwindCSS",
+        "ElysiaJS"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://realtime-chat-rosy.vercel.app",
+          "icon": "globe"
+        }
+      ]
+    }
+  ]
+}

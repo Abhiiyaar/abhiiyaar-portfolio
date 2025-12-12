@@ -1,0 +1,19 @@
+{
+  "socials": [
+    {
+      "name": "LinkedIn",
+      "href": "https://www.linkedin.com/in/abhiiyaar/",
+      "icon": "linkedin"
+    },
+    {
+      "name": "GitHub",
+      "href": "https://github.com/Abhiiyaar",
+      "icon": "github"
+    },
+    {
+      "name": "Email",
+      "href": "mailto:abhiiyaar@gmail.com",
+      "icon": "mail"
+    }
+  ]
+}

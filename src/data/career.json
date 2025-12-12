@@ -1,0 +1,27 @@
+{
+  "career": [
+    {
+      "name": "Indowel",
+      "href": "https://www.indowel.com/",
+      "title": "Web Developer (Contract)",
+      "logo": "/img/indowel.png",
+      "start": "Sep 2025",
+      "description": [
+        "Created an online catalog for Indowel to present their wide range of hardware accessories,hinges, tower bolts, screws, handles, and  curtain fittings.",
+        "Focused on a structured, easy-to-browse design that highlights both variety and durability."
+      ]
+    },
+    {
+      "name": "Vasu Interio",
+      "href": "https://www.vasuinterio.com/",
+      "title": "Web Developer (Contract)",
+      "logo": "/img/vasuinteriologo.png",
+      "start": "Jul 2025",
+      "end": "Aug 2025",
+      "description": [
+        "Designed and developed a modern website for Vasu Interio, showcasing their expertise in home interiors, modular kitchens, wardrobes, sofa upholstery, curtains, and blinds.",
+        "Focused on a clean, responsive design to highlight their services effectively."
+      ]
+    }
+  ]
+}
