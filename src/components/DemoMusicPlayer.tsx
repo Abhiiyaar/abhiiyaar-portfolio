@@ -41,7 +41,7 @@ export default function DemoMusicPlayer() {
 
   return (
     <section className="flex flex-col gap-4">
-      <h2 className="title text-2xl sm:text-3xl">🎧 Feeling Bored? Let's Vibe! 🎶</h2>
+      <h2 className="title text-2xl sm:text-3xl">🎧 Feeling Bored? Let&apos;s Vibe! 🎶</h2>
       <div className="flex flex-wrap gap-2">
         {songs.map((song, index) => (
           <Button
