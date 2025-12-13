@@ -7,8 +7,9 @@ import TechStack from "@/components/TechStack";
 import { Button } from "@/components/ui/Button";
 import { ArrowRightIcon, FileDown } from "lucide-react";
 import Link from "next/link";
+import DemoMusicPlayer from "@/components/DemoMusicPlayer";
 
-const ABHISHEK_BIRTH_YEAR = 1999;
+// const ABHISHEK_BIRTH_YEAR = 1999;
 const LIMIT = 2; // max show 2
 
 export default async function Home() {
@@ -23,8 +24,7 @@ export default async function Home() {
           </h1>
 
           <p className="mt-2 whitespace-nowrap text-sm font-medium sm:text-base">
-            {new Date().getFullYear() - ABHISHEK_BIRTH_YEAR}
-            yo software engineer from Rajasthan, India
+            Software Engineer from Rajasthan, India
           </p>
 
           <p className="mt-4 max-w-sm text-balance text-sm sm:text-base">
@@ -38,7 +38,7 @@ export default async function Home() {
               href="https://www.instagram.com/abhiiyaar/"
               target="_blank"
               rel="noopener noreferrer"
-              className="link font-semibold hover:underline cursor-pointer"
+              className="link cursor-pointer font-semibold hover:underline"
               title="Visit Instagram"
             >
               &nbsp;Abhishek Lead&nbsp;
@@ -61,6 +61,8 @@ export default async function Home() {
       <Experience />
 
       <TechStack />
+
+      <DemoMusicPlayer />
 
       <section className="flex flex-col gap-8">
         <div className="flex justify-between">

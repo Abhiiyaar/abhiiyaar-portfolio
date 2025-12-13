@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Socials from "./Socials";
+import MusicPlayer from "./MusicPlayer";
 
 export default function Footer() {
   return (
@@ -17,6 +18,9 @@ export default function Footer() {
               privacy?
             </Link>
           </p>
+          <div className="mt-2">
+            <MusicPlayer showLastPlayed={true} />
+          </div>
         </section>
       </div>
     </footer>

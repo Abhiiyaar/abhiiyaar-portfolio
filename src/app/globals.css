@@ -128,20 +128,13 @@
     }
   }
 
-  .wave-animation:hover,
-  .wave-animation:active {
-    animation: wave 1s ease-in-out;
+  .wave-animation {
     display: inline-block;
   }
 
-  /* For mobile and tablet touch devices */
-  @media (hover: none) {
-    .wave-animation {
-      animation: wave 1s ease-in-out;
-      display: inline-block;
-      animation-iteration-count: infinite;
-      animation-delay: 3s;
-    }
+  .wave-animation:hover,
+  .wave-animation:active {
+    animation: wave 1s ease-in-out;
   }
 }
 

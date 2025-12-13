@@ -3,6 +3,7 @@
 import { ThemeProvider, useTheme } from "next-themes";
 import React, { useEffect } from "react";
 import { Toaster } from "sonner";
+import { MusicProvider } from "../contexts/MusicContext";
 
 export default function Providers({ children }: { children: React.ReactNode }) {
   return (
@@ -12,9 +13,11 @@ export default function Providers({ children }: { children: React.ReactNode }) {
       defaultTheme="system"
       disableTransitionOnChange
     >
-      <ThemeColorUpdater />
-      {children}
-      <ToastProvider />
+      <MusicProvider>
+        <ThemeColorUpdater />
+        {children}
+        <ToastProvider />
+      </MusicProvider>
     </ThemeProvider>
   );
 }

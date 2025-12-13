@@ -9,7 +9,7 @@ const SwipeCards = ({ className }: SwipeCardsProps) => {
   return (
     <div className={cn("h-[233px] w-[175px]", className)}>
       <Image
-        src="/img/abhi.jpg"
+        src="/img/abhi1.jpg"
         alt="Abhishek"
         width={175}
         height={233}
