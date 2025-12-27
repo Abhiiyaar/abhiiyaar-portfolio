@@ -1,6 +1,18 @@
 {
   "education": [
     {
+      "name": "Seth GL Bihani SD PG College, Rajasthan",
+      "href": "https://www.sdbihanipgcollegesgnr.org/",
+      "title": "Bachelor of Commerce",
+      "logo": "https://www.sdbihanipgcollegesgnr.org/Content/images/favicon.ico",
+      "start": "Sep 2017",
+      "end": "Apr 2020",
+      "description": [
+        "Graduated with a First Class Honours (First Division)",
+        "Relevant Coursework: Business Management, Marketing, Finance, Computer Application, Accounting, Human Resource Management, Operations Management"
+      ]
+    },
+    {
       "name": "Code Help",
       "href": "https://www.codehelp.in/",
       "title": "Full Stack Web Development",
@@ -17,18 +29,6 @@
           "href": "https://e-commerce-app-one-sand.vercel.app/",
           "icon": "globe"
         }
-      ]
-    },
-    {
-      "name": "Seth GL Bihani SD PG College, Rajasthan",
-      "href": "https://www.sdbihanipgcollegesgnr.org/",
-      "title": "Bachelor of Commerce",
-      "logo": "https://www.sdbihanipgcollegesgnr.org/Content/images/favicon.ico",
-      "start": "Sep 2017",
-      "end": "Apr 2020",
-      "description": [
-        "Graduated with a First Class Honours (First Division)",
-        "Relevant Coursework: Business Management, Marketing, Finance, Computer Application, Accounting, Human Resource Management, Operations Management"
       ]
     }
   ]

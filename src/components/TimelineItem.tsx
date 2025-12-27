@@ -19,7 +19,7 @@ export default function TimelineItem({ experience, showLine }: Props) {
 
   return (
     <li
-      className={`relative ml-10 py-4 ${showLine ? "after:absolute after:left-[-40px] after:top-16 after:h-full after:w-px after:bg-border" : ""}`}
+      className={`relative ml-10 py-4 ${showLine ? "after:absolute after:left-[-40px] after:top-16 after:h-full after:w-px after:bg-foreground/30" : ""}`}
     >
       <Link
         href={href}

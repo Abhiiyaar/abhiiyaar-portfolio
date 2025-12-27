@@ -15,7 +15,7 @@ export default function Timeline({ experience }: Props) {
             <TimelineItem
               key={id}
               experience={exp}
-              showLine={id === 0 && experience.length > 1}
+              showLine={id < experience.length - 1}
             />
           ))}
         </ul>
