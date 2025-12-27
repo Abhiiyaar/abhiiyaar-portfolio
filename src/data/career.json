@@ -2,7 +2,7 @@
   "career": [
     {
       "name": "Indowel",
-      "href": "https://www.indowel.com/",
+      "href": "https://indowel.netlify.app/",
       "title": "Web Developer (Contract)",
       "logo": "/img/indowel.png",
       "start": "Sep 2025",
@@ -21,6 +21,17 @@
       "description": [
         "Designed and developed a modern website for Vasu Interio, showcasing their expertise in home interiors, modular kitchens, wardrobes, sofa upholstery, curtains, and blinds.",
         "Focused on a clean, responsive design to highlight their services effectively."
+      ]
+    },
+    {
+      "name": "Dashmesh Agriculture",
+      "href": "https://www.dashmeshagriculture.com/",
+      "title": "Web Developer (Contract)",
+      "logo": "/img/dashmeshlogo.svg",
+      "start": "Nov 2025",
+      "end": "Dec 2025",
+      "description": [
+        "A modern business website for an agricultural equipment company that showcases and sells farming machinery like tipping trailers, spray pumps, multi-crop machines, and land levelers."
       ]
     }
   ]

@@ -1,8 +1,8 @@
 import { Experience } from "@/lib/schemas";
 import Link from "next/link";
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/Avatar";
 import { Badge } from "./ui/Badge";
 import Icon from "./Icon";
+import OptimizedLogo from "./OptimizedLogo";
 
 interface Props {
   experience: Experience;
@@ -13,21 +13,25 @@ export default function TimelineItem({ experience, showLine }: Props) {
   const { name, href, title, logo, start, end, description, links } =
     experience;
 
+  // Check if this is work experience (no end date or recent work)
+  const isWorkExperience =
+    !end || (end && new Date(end) > new Date("2025-01-01"));
+
   return (
-    <li className={`relative ml-10 py-4 ${showLine ? 'after:absolute after:left-[-40px] after:top-16 after:h-full after:w-px after:bg-border' : ''}`}>
+    <li
+      className={`relative ml-10 py-4 ${showLine ? "after:absolute after:left-[-40px] after:top-16 after:h-full after:w-px after:bg-border" : ""}`}
+    >
       <Link
         href={href}
         target="_blank"
         className="absolute -left-16 top-4 flex items-center justify-center rounded-full bg-white"
       >
-        <Avatar className="size-12 border">
-          <AvatarImage
-            src={logo}
-            alt={name}
-            className="bg-background object-contain"
-          />
-          <AvatarFallback>{name[0]}</AvatarFallback>
-        </Avatar>
+        <OptimizedLogo
+          src={logo}
+          alt={name}
+          name={name}
+          showFallback={!isWorkExperience}
+        />
       </Link>
       <div className="flex flex-1 flex-col justify-start gap-1">
         {start && (

@@ -1,6 +1,26 @@
 {
   "projects": [
     {
+      "name": "Dashmesh Agriculture",
+      "description": "A comprehensive, production-ready website for Dashmesh Agriculture, showcasing premium agricultural equipment and machinery. This project demonstrates modern web development practices with a focus on performance, accessibility, and user experience.",
+      "image": "/img/dashmeshagriculture.png",
+      "tags": [
+        "React",
+        "Typescript",
+        "TailwindCSS",
+        "Framer Motion",
+        "Shadcn/ui",
+        "SEO Friendly"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://www.dashmeshagriculture.com",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
       "name": "Vasu Interio",
       "description": "Designed and developed a modern website for Vasu Interio, showcasing their expertise in home interiors, modular kitchens, wardrobes, sofa upholstery, curtains, and blinds.",
       "image": "/img/vasuinterio.png",

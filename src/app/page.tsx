@@ -5,12 +5,16 @@ import Socials from "@/components/Socials";
 import SwipeCards from "@/components/SwipeCards";
 import TechStack from "@/components/TechStack";
 import { Button } from "@/components/ui/Button";
-import { ArrowRightIcon, FileDown } from "lucide-react";
+import {
+  ArrowDown,
+  ArrowDownRight,
+  ArrowRightIcon,
+  FileDown,
+} from "lucide-react";
 import Link from "next/link";
-import DemoMusicPlayer from "@/components/DemoMusicPlayer";
 
 // const ABHISHEK_BIRTH_YEAR = 1999;
-const LIMIT = 2; // max show 2
+const LIMIT = 3; // max show 3
 
 export default async function Home() {
   return (
@@ -19,7 +23,7 @@ export default async function Home() {
         <SwipeCards className="md:mr-8" />
 
         <div className="flex max-w-[320px] flex-col sm:max-w-full">
-          <h1 className="title text-balance text-4xl sm:text-5xl">
+          <h1 className="title text-balance text-4xl font-normal sm:text-5xl">
             hi Abhi here. <span className="wave-animation">👋</span>
           </h1>
 
@@ -28,9 +32,19 @@ export default async function Home() {
           </p>
 
           <p className="mt-4 max-w-sm text-balance text-sm sm:text-base">
-            Backend by trade, full-stack by passion. I build and self-host the
-            lot.
+            Frontend by trade, full-stack by passion. I specialize in creating
+            dynamic and responsive web applications that provide seamless user
+            experiences. With a strong foundation in both Front-end and Back-end
+            technologies.
           </p>
+
+          <div className="mt-6 flex items-center gap-1">
+            <p className="text-balance text-sm font-semibold sm:text-base">
+              For Q&A, start a chat with Abhi Support
+            </p>
+            <ArrowDownRight className="hidden size-5 animate-bounce sm:block" />
+            <ArrowDown className="block size-5 animate-bounce sm:hidden" />
+          </div>
 
           <p className="mt-1 text-xs font-light">
             For escalations, please find my
@@ -62,7 +76,7 @@ export default async function Home() {
 
       <TechStack />
 
-      <DemoMusicPlayer />
+      {/* <DemoMusicPlayer /> */}
 
       <section className="flex flex-col gap-8">
         <div className="flex justify-between">
