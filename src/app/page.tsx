@@ -23,8 +23,11 @@ export default async function Home() {
         <SwipeCards className="md:mr-8" />
 
         <div className="flex max-w-[320px] flex-col sm:max-w-full">
-          <h1 className="title text-balance text-4xl font-normal sm:text-5xl">
-            hi Abhi here. <span className="wave-animation">👋</span>
+          <h1 className="title whitespace-nowrap text-balance text-3xl font-normal sm:text-4xl">
+            hi Abhi here.
+            <span className="wave-animation ml-1 inline-block text-2xl sm:text-3xl">
+              👋
+            </span>
           </h1>
 
           <p className="mt-2 whitespace-nowrap text-sm font-medium sm:text-base">
