@@ -23,10 +23,7 @@ export function ProjectCard({ project }: Props) {
     <Card className="flex flex-col">
       <CardHeader>
         {image && (
-          <Link
-            href={href || image}
-            className="relative block h-40 overflow-hidden"
-          >
+          <div className="relative block h-40 overflow-hidden">
             <Image
               src={image}
               alt={name}
@@ -37,7 +34,7 @@ export function ProjectCard({ project }: Props) {
               fill
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
-          </Link>
+          </div>
         )}
       </CardHeader>
       <CardContent className="flex flex-col gap-2">
