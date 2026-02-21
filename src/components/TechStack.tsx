@@ -1,3 +1,6 @@
+"use client";
+
+import { motion } from "framer-motion";
 import {
   NextJsIcon,
   TailwindIcon,
@@ -34,16 +37,18 @@ const techStack = [
 export default function TechStack() {
   return (
     <section className="flex flex-col gap-8">
-      <h2 className="text-2xl font-bold sm:text-3xl title">Tech Stack</h2>
+      <h2 className="title text-2xl font-bold sm:text-3xl">Tech Stack</h2>
       <div className="flex flex-wrap gap-3">
         {techStack.map((tech, index) => (
-          <div
+          <motion.div
             key={index}
-            className="flex items-center gap-2 rounded-full border bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-muted"
+            whileHover={{ x: 10, y: -10 }}
+            transition={{ type: "spring", stiffness: 300, damping: 20 }}
+            className="flex cursor-pointer items-center gap-2 rounded-full border bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-muted"
           >
             <tech.icon className="h-4 w-4" />
             <span>{tech.name}</span>
-          </div>
+          </motion.div>
         ))}
       </div>
     </section>

@@ -31,14 +31,12 @@ export default async function Home() {
           </h1>
 
           <p className="mt-2 whitespace-nowrap text-sm font-medium sm:text-base">
-            Full Stack Developer from Rajasthan, India
+            Full Stack Developer from India
           </p>
 
-          <p className="mt-4 max-w-sm text-balance text-sm sm:text-base">
-            Frontend by trade, full-stack by passion. I specialize in creating
-            dynamic and responsive web applications that provide seamless user
-            experiences. With a strong foundation in both Front-end and Back-end
-            technologies.
+          <p className="mt-4 max-w-sm text-sm sm:text-base">
+            Frontend by trade, full-stack by passion.
+            <br />I build and self-host the lot.
           </p>
 
           <div className="mt-6 flex items-center gap-1">

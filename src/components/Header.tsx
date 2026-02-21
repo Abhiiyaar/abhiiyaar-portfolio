@@ -19,7 +19,7 @@ export default function Header() {
         <nav className="flex items-center justify-between">
           <ul className="flex gap-4 sm:gap-8">
             {navLinks.map((nav, id) => (
-              <li key={id} className="link">
+              <li key={id} className="link cursor-pointer">
                 <Link href={nav.href}>{nav.name}</Link>
               </li>
             ))}
