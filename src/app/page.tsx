@@ -31,7 +31,7 @@ export default async function Home() {
           </h1>
 
           <p className="mt-2 whitespace-nowrap text-sm font-medium sm:text-base">
-            Software Engineer from Rajasthan, India
+            Full Stack Developer from Rajasthan, India
           </p>
 
           <p className="mt-4 max-w-sm text-balance text-sm sm:text-base">

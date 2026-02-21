@@ -11,7 +11,7 @@ const SwipeCards = ({ className }: SwipeCardsProps) => {
       className={cn("relative aspect-[3/4] w-[240px] sm:w-[300px]", className)}
     >
       <Image
-        src="/img/abhi.jpg"
+        src="/img/abhi1.jpg"
         alt="Abhishek"
         fill
         sizes="(max-width: 640px) 240px, 300px"
