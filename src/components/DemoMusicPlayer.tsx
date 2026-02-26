@@ -77,7 +77,7 @@ export default function DemoMusicPlayer() {
               className="h-6 w-6 p-0"
               title="Volume Down"
             >
-              🔉
+              -🔉
             </Button>
             <div className="w-12 text-center">
               {Math.round(volume * 100)}%
@@ -89,7 +89,7 @@ export default function DemoMusicPlayer() {
               className="h-6 w-6 p-0"
               title="Volume Up"
             >
-              🔊
+              +🔊
             </Button>
           </div>
         </div>

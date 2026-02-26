@@ -1,3 +1,4 @@
+import DemoMusicPlayer from "@/components/DemoMusicPlayer";
 import Experience from "@/components/Experience";
 import LinkWithIcon from "@/components/LinkWithIcon";
 import Projects from "@/components/Projects";
@@ -13,7 +14,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 
-// const ABHISHEK_BIRTH_YEAR = 1999;
+
 const LIMIT = 3; // max show 3
 
 export default async function Home() {
@@ -77,7 +78,7 @@ export default async function Home() {
 
       <TechStack />
 
-      {/* <DemoMusicPlayer /> */}
+      <DemoMusicPlayer />
 
       <section className="flex flex-col gap-8">
         <div className="flex justify-between">
