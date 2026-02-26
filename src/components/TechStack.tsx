@@ -37,7 +37,7 @@ const techStack = [
 export default function TechStack() {
   return (
     <section className="flex flex-col gap-8">
-      <h2 className="title text-2xl font-bold sm:text-3xl">Tech Stack</h2>
+      <h2 className="title text-2xl sm:text-3xl">Tech Stack</h2>
       <div className="flex flex-wrap gap-3">
         {techStack.map((tech, index) => (
           <motion.div
