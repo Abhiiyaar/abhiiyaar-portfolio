@@ -90,33 +90,6 @@
       ]
     },
     {
-      "name": "AI Meal Planner",
-      "description": "Discover the smarter way to plan your meals. Our AI-powered meal planner creates personalized recipes and meal plans based on your dietary preferences, available ingredients, and health goals. Save time, eat better, and take the guesswork out of cooking—your AI chef is ready!",
-      "image": "/img/mealplanner.png",
-      "tags": [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "OpenAI",
-        "Tanstack Query"
-      ],
-      "links": [
-        {
-          "name": "Website",
-          "href": "https://meal-planner-lilac-nine.vercel.app",
-          "icon": "globe"
-        },
-        {
-          "name": "Source",
-          "href": "https://github.com/Abhiiyaar/Meal-Planner",
-          "icon": "github"
-        }
-      ]
-    },
-    {
       "name": "E-Commerce App",
       "description": "A full-featured e-commerce platform with product catalog, shopping cart, user authentication, and secure payment processing via PayPal integration.",
       "image": "/img/e-commerce.png",
