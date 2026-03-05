@@ -18,8 +18,41 @@ const calistoga = Calistoga({
 });
 
 export const metadata: Metadata = {
-  title: "Abhiiyaar",
-  description: "My personal site to showcase my developer work and opinions.",
+  metadataBase: new URL("https://abhiiyaar.in"),
+  title: {
+    default: "Abhishek | Full Stack Developer",
+    template: "%s | Abhishek 'Abhiiyaar'",
+  },
+  description: "Portfolio of Abhishek (Abhiiyaar), a Full Stack Developer from India passionate about building and self-hosting web applications.",
+  keywords: [
+    "Abhishek",
+    "Abhiiyaar",
+    "Full Stack Developer",
+    "Frontend Developer",
+    "Backend Developer",
+    "React",
+    "Next.js",
+    "Web Development",
+    "India",
+    "Portfolio",
+  ],
+  authors: [{ name: "Abhishek" }],
+  creator: "Abhishek",
+  publisher: "Abhishek",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "/",
+    title: "Abhishek | Full Stack Developer",
+    description: "Portfolio of Abhishek (Abhiiyaar), a Full Stack Developer from India passionate about building and self-hosting web applications.",
+    siteName: "Abhiiyaar Portfolio",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Abhishek | Full Stack Developer",
+    description: "Portfolio of Abhishek (Abhiiyaar), a Full Stack Developer from India passionate about building and self-hosting web applications.",
+    creator: "@abhiiyaar",
+  },
   icons: {
     icon: [
       { url: "/favicon-a.svg", type: "image/svg+xml" },
@@ -28,6 +61,17 @@ export const metadata: Metadata = {
     apple: "/icon.svg",
   },
   manifest: "/manifest.json",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({

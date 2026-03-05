@@ -1,4 +1,10 @@
 import Projects from "@/components/Projects";
+import { type Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Projects",
+  description: "A showcase of my recent full-stack and frontend development projects.",
+};
 
 export default async function ProjectPage() {
   return (
