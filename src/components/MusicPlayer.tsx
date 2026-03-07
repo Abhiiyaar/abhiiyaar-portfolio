@@ -10,7 +10,8 @@ interface MusicPlayerProps {
 export default function MusicPlayer({
   showLastPlayed = false,
 }: MusicPlayerProps) {
-  const { lastPlayedSong, isPlaying, togglePlay, volume, setVolume } = useMusic();
+  const { lastPlayedSong, isPlaying, togglePlay, volume, setVolume } =
+    useMusic();
 
   const song = showLastPlayed ? lastPlayedSong : null;
 
@@ -30,6 +31,8 @@ export default function MusicPlayer({
         size="icon"
         onClick={togglePlay}
         className="h-6 w-6"
+        aria-label={isPlaying ? "Pause music" : "Play music"}
+        title={isPlaying ? "Pause music" : "Play music"}
       >
         {isPlaying ? "⏸️" : "▶️"}
       </Button>

@@ -32,16 +32,17 @@ export default function DemoMusicPlayer() {
     try {
       await playSong(song);
     } catch (error) {
-      console.error('Failed to play song:', error);
+      console.error("Failed to play song:", error);
     } finally {
       setLoading(null);
     }
   };
 
-
   return (
     <section className="flex flex-col gap-4">
-      <h2 className="title text-2xl sm:text-3xl">🎧 Feeling Bored? Let&apos;s Vibe! 🎶</h2>
+      <h2 className="title text-2xl sm:text-3xl">
+        🎧 Feeling Bored? Let&apos;s Vibe! 🎶
+      </h2>
       <div className="flex flex-wrap gap-2">
         {songs.map((song, index) => (
           <Button
@@ -64,9 +65,10 @@ export default function DemoMusicPlayer() {
         🎵 <strong>Real audio playback</strong> - Click any song to play!
       </p>
       {currentSong && (
-        <div className="rounded bg-muted/50 p-3 text-xs text-muted-foreground space-y-2">
+        <div className="space-y-2 rounded bg-muted/50 p-3 text-xs text-muted-foreground">
           <div>
-            Now playing: {currentSong.name} - {currentSong.artist} {isPlaying ? "🎵" : "⏸️"}
+            Now playing: {currentSong.name} - {currentSong.artist}{" "}
+            {isPlaying ? "🎵" : "⏸️"}
           </div>
           <div className="flex items-center gap-2">
             <span>Volume:</span>
@@ -76,18 +78,18 @@ export default function DemoMusicPlayer() {
               onClick={() => setVolume(Math.max(0, volume - 0.1))}
               className="h-6 w-6 p-0"
               title="Volume Down"
+              aria-label="Decrease Volume"
             >
               -🔉
             </Button>
-            <div className="w-12 text-center">
-              {Math.round(volume * 100)}%
-            </div>
+            <div className="w-12 text-center">{Math.round(volume * 100)}%</div>
             <Button
               variant="ghost"
               size="lg"
               onClick={() => setVolume(Math.min(1, volume + 0.1))}
               className="h-6 w-6 p-0"
               title="Volume Up"
+              aria-label="Increase Volume"
             >
               +🔊
             </Button>

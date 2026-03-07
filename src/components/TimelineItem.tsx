@@ -24,6 +24,8 @@ export default function TimelineItem({ experience, showLine }: Props) {
       <Link
         href={href}
         target="_blank"
+        rel="noopener noreferrer"
+        aria-label={`Visit ${name}`}
         className="absolute -left-16 top-4 flex items-center justify-center rounded-full bg-white"
       >
         <OptimizedLogo
@@ -56,7 +58,13 @@ export default function TimelineItem({ experience, showLine }: Props) {
       {links && links.length > 0 && (
         <div className="mt-2 flex flex-row flex-wrap items-start gap-2">
           {links?.map((link, idx) => (
-            <Link href={link.href} key={idx}>
+            <Link
+              href={link.href}
+              key={idx}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`Visit ${name} ${link.name}`}
+            >
               <Badge key={idx} title={link.name} className="flex gap-2">
                 <Icon name={link.icon} aria-hidden="true" className="size-3" />
                 {link.name}

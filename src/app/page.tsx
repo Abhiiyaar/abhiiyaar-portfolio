@@ -14,7 +14,6 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 
-
 const LIMIT = 3; // max show 3
 
 export default async function Home() {
@@ -56,6 +55,7 @@ export default async function Home() {
               rel="noopener noreferrer"
               className="link cursor-pointer font-semibold hover:underline"
               title="Visit Instagram"
+              aria-label="Visit Instagram Profile"
             >
               &nbsp;Abhishek Lead&nbsp;
             </Link>
@@ -63,12 +63,12 @@ export default async function Home() {
           </p>
 
           <section className="mt-6 flex flex-wrap items-center gap-4">
-            <Link href="/resume.pdf" download>
-              <Button variant="outline">
+            <Button asChild variant="outline">
+              <Link href="/resume.pdf" download>
                 <span className="font-semibold">Resume</span>
                 <FileDown className="ml-2 size-5" />
-              </Button>
-            </Link>
+              </Link>
+            </Button>
             <Socials />
           </section>
         </div>

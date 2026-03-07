@@ -15,6 +15,7 @@ export default function Socials() {
           className="text-muted-foreground hover:text-foreground"
           rel="noopener noreferrer"
           title={item.name}
+          aria-label={item.name}
         >
           <span className="sr-only">{item.name}</span>
           <Icon name={item.icon} aria-hidden="true" className="size-5" />
