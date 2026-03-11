@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     default: "Abhiiyaar - Full Stack Developer",
     template: "%s | Abhiiyaar",
   },
-  description: "Welcome to the portfolio of Abhishek, known online as Abhiiyaar (or Abhiiyar). I am a passionate Full Stack Developer from India, specializing in React, Next.js, and building robust, self-hosted web applications. Discover my projects, skills, and get in touch.",
+  description: "Welcome to the portfolio of Abhishek. I am a passionate Full Stack Developer from India, specializing in React, Next.js, and building robust, self-hosted web applications. Discover my projects, skills, and get in touch.",
   keywords: [
     "Abhiiyaar",
     "abhiiyar",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "/",
-    title: "Abhiiyaar - Abhishek | Full Stack Developer Portfolio",
+    title: "Abhiiyaar - Full Stack Developer Portfolio",
     description: "Welcome to the portfolio of Abhishek. I am a passionate Full Stack Developer from India, specializing in React, Next.js, and building robust, self-hosted web applications.",
     siteName: "Abhiiyaar Portfolio",
     images: [
@@ -67,8 +67,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Abhiiyaar - Abhishek | Full Stack Developer Portfolio",
-    description: "Welcome to the portfolio of Abhishek, known online as Abhiiyaar (or Abhiiyar). I am a passionate Full Stack Developer from India.",
+    title: "Abhiiyaar - Full Stack Developer Portfolio",
+    description: "Welcome to the portfolio of Abhishek. I am a passionate Full Stack Developer from India.",
     creator: "@abhiiyaar",
     images: ["/img/abhi1.jpg"],
   },
