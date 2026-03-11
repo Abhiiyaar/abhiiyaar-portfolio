@@ -23,13 +23,15 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   title: {
-    default: "Abhiiyaar - Abhishek | Full Stack Developer Portfolio",
+    default: "Abhiiyaar - Full Stack Developer",
     template: "%s | Abhiiyaar",
   },
   description: "Welcome to the portfolio of Abhishek, known online as Abhiiyaar (or Abhiiyar). I am a passionate Full Stack Developer from India, specializing in React, Next.js, and building robust, self-hosted web applications. Discover my projects, skills, and get in touch.",
   keywords: [
     "Abhiiyaar",
     "abhiiyar",
+    "Abhishek",
+    "Abhishek Gandhi",
     "Abhishek Portfolio",
     "Abhiiyaar Portfolio",
     "Full Stack Developer",
@@ -52,7 +54,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "/",
     title: "Abhiiyaar - Abhishek | Full Stack Developer Portfolio",
-    description: "Welcome to the portfolio of Abhishek, known online as Abhiiyaar (or Abhiiyar). I am a passionate Full Stack Developer from India, specializing in React, Next.js, and building robust, self-hosted web applications.",
+    description: "Welcome to the portfolio of Abhishek. I am a passionate Full Stack Developer from India, specializing in React, Next.js, and building robust, self-hosted web applications.",
     siteName: "Abhiiyaar Portfolio",
     images: [
       {
