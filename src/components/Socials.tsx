@@ -12,7 +12,7 @@ export default function Socials() {
           href={item.href}
           key={item.name}
           target="_blank"
-          className="text-muted-foreground hover:text-foreground"
+          className="text-foreground/70 hover:text-foreground"
           rel="noopener noreferrer"
           title={item.name}
           aria-label={item.name}

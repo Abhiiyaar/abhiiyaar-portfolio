@@ -64,6 +64,30 @@
       ]
     },
     {
+      "name": "Geeky Web Dev",
+      "description": "A modern web development agency featuring full-stack services, smooth animations, responsive design, and built with cutting-edge web technologies. Showcases services including full-stack development, frontend and backend solutions, performance optimization, and SEO-friendly designs.",
+      "image": "/img/geekywebdev.jpeg",
+      "tags": [
+        "Next.js",
+        "Typescript",
+        "Framer Motion",
+        "Emailjs",
+        "TailwindCSS",
+        "SEO Friendly",
+        "Shadcn/ui",
+        "GSAP",
+        "Zod",
+        "React hook form"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://indowel.com/",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
       "name": "Socially",
       "description": "A modern social networking platform that enables users to connect, share content, and interact in real-time. Features include user profiles, post creation with media uploads, commenting, and a responsive interface for seamless mobile and desktop experiences.",
       "image": "/img/socially.png",

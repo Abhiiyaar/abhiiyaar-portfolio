@@ -34,6 +34,18 @@
       "description": [
         "A modern business website for an agricultural equipment company that showcases and sells farming machinery like tipping trailers, spray pumps, multi-crop machines, and land levelers."
       ]
+    },
+    {
+      "name": "Geeky Web Dev",
+      "href": "https://www.geekywebdev.in/",
+      "title": "Owner",
+      "logo": "https://geekywebdev.in/favicon.ico",
+      "start": "Jan 2026",
+      "end": "Present",
+      "description": [
+        "A modern web development agency featuring full-stack services, smooth animations, responsive design, and built with cutting-edge web technologies.",
+        "Showcases services including full-stack development, frontend and backend solutions, performance optimization, and SEO-friendly designs."
+      ]
     }
   ]
 }

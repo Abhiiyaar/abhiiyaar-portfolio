@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 
-const LIMIT = 3; // max show 3
+const LIMIT = 4; // max show 3
 
 export default async function Home() {
   return (
@@ -23,9 +23,8 @@ export default async function Home() {
         <SwipeCards className="md:mr-8" />
 
         <div className="flex max-w-[320px] flex-col sm:max-w-full">
-          <h1 className="title whitespace-nowrap text-balance text-3xl font-normal sm:text-4xl">
-            hi i&apos;m Abhishek.
-            <span className="wave-animation ml-1 inline-block text-2xl sm:text-3xl">
+          <h1 className="title whitespace-nowrap text-3xl font-normal sm:text-4xl">
+            hi Abhi here. <span className="wave-animation inline-block text-3xl sm:text-4xl" >
               👋
             </span>
           </h1>
@@ -78,7 +77,7 @@ export default async function Home() {
 
       <TechStack />
 
-      <DemoMusicPlayer />
+      {/* <DemoMusicPlayer /> */}
 
       <section className="flex flex-col gap-8">
         <div className="flex justify-between">

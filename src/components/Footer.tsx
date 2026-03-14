@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="mx-auto flex max-w-3xl flex-col items-center justify-center px-8 pb-20 sm:flex-row-reverse sm:justify-between">
         <Socials />
         <section className="mt-8 text-center sm:mt-0 sm:text-left">
-          <p className="text-xs text-muted-foreground">
+          <p className="text-sm text-foreground/80 hover:text-foreground ">
             &copy; {new Date().getFullYear()}{" "}
             <Link className="link" href="/">
               abhiiyaar.in
@@ -18,9 +18,9 @@ export default function Footer() {
               privacy?
             </Link>
           </p>
-          <div className="mt-2">
+          {/* <div className="mt-2">
             <MusicPlayer showLastPlayed={true} />
-          </div>
+          </div> */}
         </section>
       </div>
     </footer>
