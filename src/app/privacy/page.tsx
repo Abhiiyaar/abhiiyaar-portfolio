@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Privacy policy for Abhishek's portfolio website.",
 };
 
-const lastUpdated = "Dec 2025";
+const lastUpdated = "March 2026";
 
 export default function page() {
   return (
