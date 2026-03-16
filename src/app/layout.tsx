@@ -18,10 +18,7 @@ const calistoga = Calistoga({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://abhiiyaar.in"),
-  alternates: {
-    canonical: "/",
-  },
+  metadataBase: new URL("https://www.abhiiyaar.in"),
   title: {
     default: "Abhiiyaar - Full Stack Developer",
     template: "%s | Abhiiyaar",
@@ -46,19 +43,19 @@ export const metadata: Metadata = {
     "Self-hosting",
     "Web Design"
   ],
-  authors: [{ name: "Abhishek (Abhiiyaar)", url: "https://abhiiyaar.in" }],
+  authors: [{ name: "Abhishek (Abhiiyaar)", url: "https://www.abhiiyaar.in" }],
   creator: "Abhiiyaar",
   publisher: "Abhiiyaar",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "/",
+    url: "https://www.abhiiyaar.in",
     title: "Abhiiyaar - Full Stack Developer Portfolio",
     description: "Welcome to the portfolio of Abhishek. I am a passionate Full Stack Developer from India, specializing in React, Next.js, and building robust, self-hosted web applications.",
     siteName: "Abhiiyaar Portfolio",
     images: [
       {
-        url: "/img/abhi1.jpg",
+        url: "/img/abhi2.png",
         width: 1200,
         height: 630,
         alt: "Abhiiyaar Portfolio - Abhishek",
@@ -70,7 +67,7 @@ export const metadata: Metadata = {
     title: "Abhiiyaar - Full Stack Developer Portfolio",
     description: "Welcome to the portfolio of Abhishek. I am a passionate Full Stack Developer from India.",
     creator: "@abhiiyaar",
-    images: ["/img/abhi1.jpg"],
+    images: ["/img/abhi2.png"],
   },
   icons: {
     icon: [

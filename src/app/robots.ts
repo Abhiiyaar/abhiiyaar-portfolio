@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://abhiiyaar.in/sitemap.xml',
+    sitemap: 'https://www.abhiiyaar.in/sitemap.xml',
   };
 }

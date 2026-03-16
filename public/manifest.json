@@ -1,11 +1,11 @@
 {
   "name": "Abhishek | Full Stack Developer",
   "short_name": "abhiiyaar.in",
-  "start_url": "/",
+  "start_url": "https://www.abhiiyaar.in",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
-  "description": "Portfolio of Abhishek (Abhiiyaar), a Full Stack Developer from India passionate about building and self-hosting web applications.",
+  "description": "Portfolio of Abhishek, a Full Stack Developer from India passionate about building and self-hosting web applications.",
   "icons": [
     {
       "src": "/favicon-a.svg",

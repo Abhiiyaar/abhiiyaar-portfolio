@@ -6,7 +6,7 @@ A clean, minimal portfolio website built with Next.js, Tailwind CSS, and Shadcn 
 
 ## Live Demo
 
-🌐 Check it out here: **[abhiiyaar.in](https://abhiiyaar.in)**
+🌐 Check it out here: **[abhiiyaar.in](https://www.abhiiyaar.in)**
 
 
 ## Features
