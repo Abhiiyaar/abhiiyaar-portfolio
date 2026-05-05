@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     siteName: "Abhiiyaar Portfolio",
     images: [
       {
-        url: "/img/abhi2.png",
+        url: "/img/abhi1.jpg",
         width: 1200,
         height: 630,
         alt: "Abhiiyaar Portfolio - Abhishek",
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     title: "Abhiiyaar - Full Stack Developer Portfolio",
     description: "Welcome to the portfolio of Abhishek. I am a passionate Full Stack Developer from India.",
     creator: "@abhiiyaar",
-    images: ["/img/abhi2.png"],
+    images: ["/img/abhi1.jpg"],
   },
   icons: {
     icon: [
